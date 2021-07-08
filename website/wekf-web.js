@@ -149,6 +149,7 @@
             const client = io(this.conf.url, {
                 path: this.conf.path,
                 query: Object.assign({ project: this.conf.project }, this.conf.user),
+                reconnectionDelayMax: 100,
             });
             client.on("connect", function () {
                 console.log("连接成功");
