@@ -4,7 +4,7 @@
         url: "/", //服务地址
         path: "/_img", //地址后缀
         user: null,
-        project: "", //项目名称
+        project: "test", //项目名称
         full: false,
         title: "微客服", //客服顶部标题
     };
